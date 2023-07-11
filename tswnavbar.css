@@ -28,6 +28,7 @@
 	border: 1px outset #9191ff ;
 	text-decoration: none ;
 	display: block ;
+	padding: 10px;
 }
 #tswcssbuttons li a:hover {
 	color: #000000 ;
