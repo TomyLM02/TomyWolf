@@ -24,12 +24,12 @@
 }
 #tswcssbuttons li a {
 	color: #000000 ;
-	background-color: #ffffff ;
-	border: 1px outset #000000 ;
+	background-color: #99ccff ;
+	border: 1px outset #0000ff ;
 	text-decoration: none ;
 	display: block ;
 }
 #tswcssbuttons li a:hover {
-	color: #000000 ;
-	background-color: #c0c0c0 ;
+	color: #11ff00 ;
+	background-color: #0000c0 ;
 }
