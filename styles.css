@@ -24,7 +24,7 @@ div#tswsidecol {
 	background-color:aqua ;
 }
 div#tswcontent {
-	float: left ;
+	float: center ;
 	width: 50% ;
 	color: #fff;;
 	background-color:blue ;
