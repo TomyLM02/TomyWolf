@@ -11,13 +11,13 @@
 	text-align: center ;
 }
 #tswcssbuttons ul {
-	margin:  0 ;
-	padding: 10px ;
+	margin: 0 ;
+	padding: 0 ;
 	list-style: none ;
 }
 #tswcssbuttons li {
 	margin: 0 ;
-	padding: 10px ;
+	padding: 0 ;
 	display: block ;
 	list-style: none ;
 	font-family: Arial, Helvetica, sans-serif ;
@@ -28,7 +28,6 @@
 	border: 1px outset #9191ff ;
 	text-decoration: none ;
 	display: block ;
-	padding: 10px;
 }
 #tswcssbuttons li a:hover {
 	color: #000000 ;
