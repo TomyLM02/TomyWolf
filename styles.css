@@ -4,6 +4,7 @@
 */
 body {
 	font-family: Arial, Helvetica, sans-serif ;
+	background-color: aqua !important;
 }
 img {
 	max-width: 100% ;
@@ -20,7 +21,7 @@ div#tswsidecol {
 	float: right ;
 	width: 20% ;
 	color: #000 ;
-	background-color: #fff ;
+	background-color:#fff ;
 }
 div#tswcontent {
 	float: right ;
