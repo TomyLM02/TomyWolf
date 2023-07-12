@@ -9,11 +9,10 @@
 	width: 325px ;
 	max-width: 100% ;
 	text-align: center ;
-	height: 500px ;
 }
 #tswcssbuttons ul {
 	margin: 0 ;
-	padding: 5% 0 ;
+	padding: 50px 0 ;
 	list-style: none ;
 }
 #tswcssbuttons li {
