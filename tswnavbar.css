@@ -9,6 +9,7 @@
 	width: 325px ;
 	max-width: 100% ;
 	text-align: center ;
+	padding: 50px;
 }
 #tswcssbuttons ul {
 	margin: 0 ;
@@ -25,7 +26,7 @@
 #tswcssbuttons li a {
 	color: #ffff00 ;
 	background-color: #12127d ;
-	border: 30px outset #9191ff ;
+	border: 1px outset #9191ff ;
 	text-decoration: none ;
 	display: block ;
 }
