@@ -9,7 +9,7 @@
 	width: 325px ;
 	max-width: 100% ;
 	text-align: center ;
-	padding: 50px;
+
 }
 #tswcssbuttons ul {
 	margin: 0 ;
@@ -29,6 +29,7 @@
 	border: 1px outset #9191ff ;
 	text-decoration: none ;
 	display: block ;
+	padding: 25px 0;
 }
 #tswcssbuttons li a:hover {
 	color: #000000 ;
