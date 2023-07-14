@@ -9,6 +9,15 @@ cube.onclick = function() {
 
     cube.style.transform = 'rotateX('+xRand+'deg) rotateY('+yRand+'deg)';
     // console.log(getResult(xRand, yRand));
+    
+    setTimeout(function() {
+        //your code to be executed after 1 second
+        if (getResult(xRand, yRand) === 6) {
+            alert("WINNER!");
+        } else {
+            alert("LOSER");
+        }
+    }, 4000 ); //4000ms = 4 seconds
 }
 
 function getRandom(max, min) {
@@ -31,7 +40,3 @@ function getResult(rotX, rotY) {
     return [1,4,2,3][countY];
 
 }
-
-
-
-
