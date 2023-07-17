@@ -13,9 +13,9 @@ cube.onclick = function() {
     setTimeout(function() {
         //your code to be executed after 1 second
         if (getResult(xRand, yRand) === 6) {
-            alert("WINNER!");
+            alert("YOU WIN!");
         } else {
-            alert("LOSER");
+            alert("YOU LOSE!");
         }
     }, 4000 ); //4000ms = 4 seconds
 }
