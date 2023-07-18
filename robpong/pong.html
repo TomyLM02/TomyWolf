@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rob Pong</title>
     <link rel="stylesheet" href="pong.css">
+    <title>Rob Pong</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/008/785/669/original/trophy-mondial-fifa-world-cup-football-gold-symbol-champion-abstract-design-illustration-free-vector.jpg"
+    type="image/x-icon">
 </head>
+<style>
+body {
+    background-image: url(https://assets.editorial.aetnd.com/uploads/2014/06/soccer-ball-gettyimages-sb10066898ab-001.jpg);
+}
+</style>
 <body>
-    <h1>Rob Pong</h1>
-    <canvas id="gameboard" width="500"
-    height="500"></canvas>
-    <div id="scoreboard">0 : 0</div>
-
-
-
-
+   
+    <h1>FIFA Pong!</h1>
+    <img src="https://cdn.britannica.com/69/5869-004-7D75CD05/Flag-Argentina.jpg" alt = "Argentina Flag" style="width: 200px; height: 120px;">
+    <canvas id="gameboard" width="1000" height="600"></canvas>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" alt = "Brazil Flag" style="width: 200px; height: 120px;">
+    <div id="scoreboard"> 0 : 0</div>
+    <button id="reset" onclick="resetGame()">RESET</button>
+   
+    <script src="Ball.js"></script>
+    <script src="Paddle.js"></script>
     <script src="pong.js"></script>
 
 </body>
