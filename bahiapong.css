@@ -1,0 +1,33 @@
+html, body {margin: 0; height:100%; overflow: hidden;}
+
+body{
+    text-align: center;
+    color: rgb(29, 73, 148);
+
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+#scoreboard {
+    color: white;
+    font-size: 40px;
+    font-family: fantasy;
+}
+#reset {
+    cursor: pointer;
+    background-color: rgb(19, 45, 80);
+    border-radius: 15px;
+    border: 2.5 solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#gameboard {
+    background-color: aliceblue;
+    border: 2.5px solid black;
+}
